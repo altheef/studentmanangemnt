@@ -1,0 +1,171 @@
+/* =========================
+GLOBAL VARIABLES
+========================= */
+:root {
+--bg-white: #0f172a;
+
+--glass-border: rgba(255, 255, 255, 0.15);
+--primary: #22c55e;
+--secondary: #06b6d4;
+}
+
+/* =========================
+BODY
+========================= */
+body {
+background: linear-gradient(135deg, #eeeef0, #0f172a);
+min-height: 100vh;
+font-family: 'Segoe UI', system-ui, sans-serif;
+color: #e2e8f0;
+margin: 0;
+}
+
+/* =========================
+HEADER
+========================= */
+.main-header {
+background: linear-gradient(135deg, #22c55e, #06b6d4);
+color: #022c22;
+padding: 2rem;
+text-align: center;
+font-weight: bold;
+letter-spacing: 1px;
+box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+/* =========================
+CARD / CONTAINER
+========================= */
+.main-card {
+background: var(--card-bg);
+backdrop-filter: blur(12px);
+border: 1px solid var(--glass-border);
+border-radius: 20px;
+box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+padding: 20px;
+margin-top: 20px;
+}
+
+/* =========================
+FORM INPUTS
+========================= */
+.form-control {
+background: rgba(255,255,255,0.05);
+border: 1px solid var(--glass-border);
+border-radius: 10px;
+color: white;
+padding: 10px;
+}
+
+.form-control:focus {
+border-color: var(--secondary);
+outline: none;
+box-shadow: 0 0 10px rgba(6,182,212,0.6);
+}
+
+/* =========================
+BUTTONS
+========================= */
+.btn-primary {
+background: linear-gradient(135deg, var(--primary), var(--secondary));
+border: none;
+border-radius: 30px;
+padding: 10px 25px;
+font-weight: 600;
+color: white;
+transition: 0.3s;
+cursor: pointer;
+}
+
+.btn-primary:hover {
+transform: scale(1.05);
+box-shadow: 0 0 20px rgba(34,197,94,0.6);
+}
+
+/* =========================
+SEARCH BAR
+========================= */
+.search-input {
+border-radius: 30px;
+background: rgba(255,255,255,0.05);
+border: 1px solid var(--glass-border);
+color: white;
+padding: 10px;
+}
+
+/* =========================
+TABLE
+========================= */
+.table {
+width: 100%;
+border-collapse: collapse;
+color: #e2e8f0;
+}
+
+.table th,
+.table td {
+padding: 12px;
+text-align: center;
+}
+
+.table thead {
+background: linear-gradient(135deg, #22c55e, #06b6d4);
+color: #022c22;
+}
+
+.table tbody tr {
+border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.table tbody tr:hover {
+background: rgba(255,255,255,0.05);
+}
+
+/* =========================
+ACTION BUTTON
+========================= */
+.action-btn {
+border-radius: 20px;
+padding: 6px 12px;
+font-size: 0.8rem;
+border: none;
+cursor: pointer;
+transition: 0.2s;
+}
+
+.action-btn:hover {
+transform: scale(1.1);
+}
+
+/* =========================
+BADGE
+========================= */
+.mark-badge {
+background: linear-gradient(135deg, #22c55e, #4ade80);
+color: #022c22;
+border-radius: 50px;
+padding: 5px 12px;
+font-weight: bold;
+}
+
+/* =========================
+RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+.main-card {
+padding: 15px;
+}
+
+```
+.table th, 
+.table td {
+    font-size: 12px;
+    padding: 8px;
+}
+
+.btn-primary {
+    width: 100%;
+}
+```
+
+}
